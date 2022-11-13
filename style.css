@@ -1,0 +1,51 @@
+nav h1{
+    color: white;
+}
+nav{
+    width:100%;
+    height:70px;
+    background-color: black;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    position:sticky;
+    top: 0px;
+}
+nav ul li{
+   list-style-type: none;
+   display: inline-block;
+   justify-content: space-around;
+   padding: 10px 20px;
+}
+nav ul li a{
+    text-decoration:none;
+    color: beige;
+    font-size: 25px;
+    font-weight: bold;
+}
+P{
+    width: 100vh;
+    height: 70px;
+}
+img{
+    position: relative;
+    width:100vh;
+    height: 300px;
+
+    
+}
+button{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    height: 50px;
+    width: 100px;
+    
+
+
+    
+}
+
+
